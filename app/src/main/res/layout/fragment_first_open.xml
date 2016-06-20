@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e2dc24"
+    tools:context="com.example.qenawi.chi_woo.fragments.First_open"
+    android:weightSum="1">
+    <Button
+        android:id="@+id/ADD"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="ADD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/Sut_me"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="suit_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/Drop"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="171dp"
+        android:src="@drawable/lee"
+        android:id="@+id/imageView"
+        android:layout_marginRight="197dp"
+        android:layout_marginEnd="197dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+</LinearLayout>

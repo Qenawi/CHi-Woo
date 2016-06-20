@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#9da49d"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qenawi.chi_woo.fragments.BlankFragment">
+
+
+    0<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one_piecechibimihawkbysergiartd8q5omd"
+        android:id="@+id/imageView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="ChI_Woo"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="170dp" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_prog"
+        android:layout_above="@android:id/secondaryProgress"
+        android:visibility="gone"/>
+</LinearLayout>

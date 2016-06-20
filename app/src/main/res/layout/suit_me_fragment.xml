@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7bd719"
+    tools:context="com.example.qenawi.chi_woo.fragments.suit_me_fragment">
+    <!-- shirt -->
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <TextView
+        android:text="shirt"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/shirt_des"
+            android:layout_weight="1"
+            android:text="shirt Desc"
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/shirt_clr"
+            android:layout_weight="1"
+            android:text="shirt color"
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#2114ce"
+        android:layout_height="2dp"></LinearLayout>
+    </LinearLayout>
+    <!-- shirt -->
+    <!-- pants -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+    <TextView
+        android:text="pantss"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pants_des"
+            android:layout_weight="1"
+            android:text="shirt Desc"
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/pants_clr"
+            android:layout_weight="1"
+            android:text="shirt color"
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#2114ce"
+        android:layout_height="2dp"></LinearLayout>
+    </LinearLayout>
+    <!-- pants -->
+    <!-- Dzma -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+    <TextView
+        android:text="dazma"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dzma_des"
+            android:layout_weight="1"
+            android:text="shirt Desc"
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/dzma_clr"
+            android:layout_weight="1"
+            android:text="shirt color"
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!-- shirt -->
+    <!-- end -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#2114ce"
+        android:layout_height="2dp"></LinearLayout>
+        </LinearLayout>>
+    <Button
+        android:id="@+id/chose"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Chose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progressBar"
+        android:visibility="gone"/>
+
+</LinearLayout>
